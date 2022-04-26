@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.value1{
+  background-color: 	rgb(242, 242, 242);
+  width:100%;
+  height:300px;
+  overflow:auto;
+  box-shadow: 5px 5px 5px rgb(217, 217, 217)
+}
+.value2{
+  position: relative;
+}
+
+.value3{
+  border: 2px solid black;
+  border-radius: 10px;
+padding:0px 5px;
+  position: absolute;
+  top: -10px;
+  right: -22px;
+
+}
+.one {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.detail1{
+  position: relative;
+}
+
+.abc1 {
+  position: absolute;
+  top: 14px;
+ 
+  right: 13px;
+}
+
+.detail2{
+  margin: 10px 0px;
+  padding: 7px;
+  width: 330px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.result{
+  background-color: rgb(150, 239, 239);
+  height: 100vh;
+}
+
+.weather1{
+  width: 750px;
+  height: 450px;
+  border: 2px solid black;
+  background-color: #61dafb;
+  box-shadow: 10px 10px 10px black;
+}
+.weather2{
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  background-color: #fefffe;
+}
+.weather2 i{
+  font-size: 100px;
+  padding-top: 40px;
+}
+.weather3{
+  width: 100%;
+  height: 35%;
+  color: white;
+  background-color: #030002;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.weather4{
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fafbfe;
+}
+.weather4 span{
+  font-size: 20px;
+}
+.dish1{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dish2{
+  width: 30%;
+  height: 100%;
+  background-color: #3a7b3a;
+  padding: 33px 33px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
